@@ -6,6 +6,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
+    BRANDS.each{ |i| if }
     BRANDS << brand
   end
 
